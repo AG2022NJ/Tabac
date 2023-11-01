@@ -14,10 +14,13 @@ body {
 nav {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
     align-items: center;
     border-bottom: 5px solid #490303;
     background-color: white;
+}
+
+.logo {
+    width: 10vw;
 }
 
 nav h1 {
@@ -26,9 +29,11 @@ nav h1 {
     font-size: 30px;
 }
 
-nav .onglets {
+.onglets {
     margin-top: 3px;
-    margin-left: 300px;
+    margin-right: 50px;
+    position: absolute;
+    right: 0;
 }
 
 nav .onglets a {
@@ -40,13 +45,14 @@ nav .onglets a {
 }
 
 header {
+    background-image: url('images/feuille\ tabac.jpeg');
     display: flex;
     background-color: #490303;
     align-items: center;
-    color: #f5d7d7;
+    color: #fff;
     padding: 40px;
     justify-content: center;
-    height: 50vh;
+    height: 30vh;
 }
 
 .img_carrou {
@@ -84,7 +90,6 @@ header button {
 
 .main {
     margin-top: 40px;
-    display: flex;
     flex-direction: column;
     align-items: center;
 }
